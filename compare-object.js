@@ -28,3 +28,6 @@ function compareObjects(obj1, onj2){
     }
     return true;
 }
+
+const isEqual = compareObjects(first2, second2);
+console.log(isEqual);
